@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.box{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+#uno{
+    background-color: red;
+}
+
+#due{
+    background-color: green;
+}
+
+#tre{
+    background-color: yellow;
+}
+
+.overlay{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: scale(0.8);
+}
+
+h1{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    font-size: 60px;
+    font-weight: bolder;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.shoes{
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.text-diff{
+    color: yellow;
+}
+
+.text-tommy{
+    color: yellow;
+}
+
+.text-conv{
+    color: green;
+}
